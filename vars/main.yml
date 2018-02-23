@@ -4,6 +4,7 @@ lf_recommended_tools_packages_common:
   - ansible
   - ant
   - crudini
+  - dstat
   - facter
   - git
   - git-review
