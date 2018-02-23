@@ -1,2 +1,37 @@
 ---
-# tasks file for lf-recommended-tools
+- name: Pull in package names
+  include_vars: "{{item}}"
+  with_first_found:
+    - 'pkg-names-{{ansible_distribution}}.yaml'
+    - 'pkg-names-{{ansible_os_family}}.yaml'
+    - 'pkg-names.yaml'
+
+- name: Install LF Recommended Tools
+  package:
+    name: '{{item}}'
+    state: present
+  with_items:
+    - ansible
+    - ant
+    - crudini
+    - facter
+    - git
+    - git-review
+    - graphviz
+    - jq
+    - sshpass
+    - sshuttle
+    - unzip
+    - xmlstarlet
+    - '{{pkg_gnu_parallel}}'
+    - '{{pkg_netcat}}'
+    - '{{pkg_perl_digest_sha}}'
+    - '{{pkg_perl_extutils_makemaker}}'
+    - '{{pkg_perl_xml_xpath}}'
+    - '{{pkg_xz}}'
+  become: true
+
+- name: Install fedora-packager
+  yum: name=fedora-packager state=present
+  when: ansible_os_family == 'RedHat'
+  become: true
