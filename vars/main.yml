@@ -1,2 +1,15 @@
 ---
-# vars file for lf-recommended-tools
+lf_recommended_tools_packages: "{{ lf_recommended_tools_packages_common }} + {{ lf_recommended_tools_packages_distro }}"
+lf_recommended_tools_packages_common:
+  - ansible
+  - ant
+  - crudini
+  - facter
+  - git
+  - git-review
+  - graphviz
+  - jq
+  - sshpass
+  - sshuttle
+  - unzip
+  - xmlstarlet
