@@ -1,0 +1,7 @@
+Code-Review+2: Anil Belur <abelur@linuxfoundation.org>
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Submitted-by: Thanh Ha <thanh.ha@linuxfoundation.org>
+Submitted-at: Mon, 30 Jul 2018 23:29:21 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/12038
+Project: ansible/roles/lf-recommended-tools
+Branch: refs/heads/master
