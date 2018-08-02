@@ -20,3 +20,18 @@
   yum: name=fedora-packager state=present
   when: ansible_os_family == 'RedHat'
   become: true
+
+- name: Install PlantUML
+  block:
+    - name: Fetch PlantUML
+      get_url:
+        url: http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
+        dest: /opt/plantuml/plantuml.jar
+        mode: 0644
+    - name: Install PlantUML executable script
+      copy:
+        content: |
+          #!/bin/sh
+          exec java -jar /opt/plantuml/plantuml.jar "$@"
+        dest: /usr/local/bin/plantuml
+        mode: 0755
