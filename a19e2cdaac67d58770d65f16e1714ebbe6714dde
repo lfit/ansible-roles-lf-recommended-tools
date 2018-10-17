@@ -1,0 +1,7 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Thanh Ha (zxiiro) <thanh.ha@linuxfoundation.org>
+Submitted-by: Aric Gardner <agardner@linuxfoundation.org>
+Submitted-at: Wed, 17 Oct 2018 19:11:09 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/13031
+Project: ansible/roles/lf-recommended-tools
+Branch: refs/heads/master
