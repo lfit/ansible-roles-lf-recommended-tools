@@ -21,6 +21,19 @@
   when: ansible_os_family == 'RedHat'
   become: true
 
+- name: Swap to git2u
+  block:
+    - name: Install yum-plugin-replace
+      yum: name=yum-plugin-replace state=present update_cache=yes
+    - name: Gather rpm package facts
+      package_facts:
+        manager: auto
+    - name: Replace git with git2u
+      command: yum replace -y git --replace-with git2u
+      when: ansible_facts.packages['git'] is defined
+  when: ansible_os_family == 'RedHat'
+  become: true
+
 - name: Install PlantUML
   block:
     - name: Create /opt/plantuml install directory
