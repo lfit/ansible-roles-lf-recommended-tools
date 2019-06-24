@@ -1,0 +1,7 @@
+Code-Review+2: Jessica Wagantall <jwagantall@linuxfoundation.org>
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Submitted-by: Andrew Grimberg <agrimberg@linuxfoundation.org>
+Submitted-at: Mon, 24 Jun 2019 21:30:56 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/ansible/roles/lf-recommended-tools/+/15979
+Project: ansible/roles/lf-recommended-tools
+Branch: refs/heads/master
