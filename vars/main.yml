@@ -4,6 +4,7 @@ lf_recommended_tools_packages_common:
   - ansible
   - ant
   - crudini
+  - curl
   - dos2unix
   - dstat
   - facter
@@ -14,5 +15,6 @@ lf_recommended_tools_packages_common:
   - sshpass
   - sshuttle
   - unzip
+  - wget
   - xmlstarlet
   - zip
