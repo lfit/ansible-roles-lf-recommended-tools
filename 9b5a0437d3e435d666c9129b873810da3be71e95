@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e688cb20_c30de654",
+        "filename": "tox.ini",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-06-30T15:32:12Z",
+      "side": 1,
+      "message": "Maybe I\u0027m misreading the error from Jenkins, but perhaps the comment isn\u0027t supported on the same line as the dependency?",
+      "revId": "9b5a0437d3e435d666c9129b873810da3be71e95",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
