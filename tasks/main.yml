@@ -21,6 +21,10 @@
   when: ansible_os_family == 'RedHat'
   become: true
 
+- gem:
+    name: "{{ lf_recommended_tools_package_cloud }}"
+    state: latest
+
 - name: Install PlantUML
   block:
     - name: Create /opt/plantuml install directory
