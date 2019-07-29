@@ -5,3 +5,6 @@ pkg_perl_digest_sha: libdigest-sha-perl
 pkg_perl_extutils_makemaker: libextutils-makemaker-cpanfile-perl
 pkg_perl_xml_xpath: libxml-xpath-perl
 pkg_xz: xz-utils
+pkg_ruby_dev: ruby-dev
+pkg_make: make
+pkg_g++: g++

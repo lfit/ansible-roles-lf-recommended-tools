@@ -6,3 +6,6 @@ lf_recommended_tools_packages_distro:
   - libextutils-makemaker-cpanfile-perl
   - libxml-xpath-perl
   - xz-utils
+  - ruby-dev
+  - make
+  - g++
