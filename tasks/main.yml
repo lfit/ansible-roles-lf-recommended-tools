@@ -21,6 +21,16 @@
   when: ansible_os_family == 'RedHat'
   become: true
 
+- name: Install rake package
+  gem:
+    name: rake
+    state: latest
+
+- name: Install Package Cloud
+  gem:
+    name: package_cloud
+    state: latest
+
 - name: Install PlantUML
   block:
     - name: Create /opt/plantuml install directory
