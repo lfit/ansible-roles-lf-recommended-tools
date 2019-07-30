@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c3963056_4feee623",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-07-30T21:55:04Z",
+      "side": 1,
+      "message": "I think we are adding a few packages to the existing role, not adding a new one. \n\n\"Add packagecloud deps to role...\"",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 40
+      },
+      "revId": "44e14b4297c004dd94ec8f9fa61287ef82fd0bbd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ca758036_eb80743f",
+        "filename": "tasks/pkg-names-Debian.yaml",
+        "patchSetId": 7
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-07-30T21:55:04Z",
+      "side": 1,
+      "message": "ordering",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 12
+      },
+      "revId": "44e14b4297c004dd94ec8f9fa61287ef82fd0bbd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9dbd6a96_679bfe9b",
+        "filename": "tasks/pkg-names-RedHat.yaml",
+        "patchSetId": 7
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-07-30T21:55:04Z",
+      "side": 1,
+      "message": "ascetically order",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 20
+      },
+      "revId": "44e14b4297c004dd94ec8f9fa61287ef82fd0bbd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2b1cf5f0_8353a9bf",
+        "filename": "vars/Debian.yaml",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-07-30T21:55:04Z",
+      "side": 1,
+      "message": "arent we install these to the development tools group? I\u0027d think ruby-dev should be enough, and that should pull in the required deps.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 7
+      },
+      "revId": "44e14b4297c004dd94ec8f9fa61287ef82fd0bbd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d65892c3_9790b2ef",
+        "filename": "vars/Debian.yaml",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-07-30T21:55:04Z",
+      "side": 1,
+      "message": "ordering ditto",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 7
+      },
+      "revId": "44e14b4297c004dd94ec8f9fa61287ef82fd0bbd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "483b0f16_6ae14612",
+        "filename": "vars/RedHat.yaml",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-07-30T21:55:04Z",
+      "side": 1,
+      "message": "order this acrobatically",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 11
+      },
+      "revId": "44e14b4297c004dd94ec8f9fa61287ef82fd0bbd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
