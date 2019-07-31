@@ -117,6 +117,30 @@
     },
     {
       "key": {
+        "uuid": "67e0e3b2_d07db73c",
+        "filename": "vars/Debian.yaml",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 220
+      },
+      "writtenOn": "2019-07-31T17:19:38Z",
+      "side": 1,
+      "message": "Hi Anil,\nThanks for the review.. \nActually with out make and gcc the jenkins lf-infra-ansible-roles-tox-verify-any build job is getting failed.. \nCan check patchsets 5 and 6",
+      "parentUuid": "2b1cf5f0_8353a9bf",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 7
+      },
+      "revId": "44e14b4297c004dd94ec8f9fa61287ef82fd0bbd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "483b0f16_6ae14612",
         "filename": "vars/RedHat.yaml",
         "patchSetId": 7
