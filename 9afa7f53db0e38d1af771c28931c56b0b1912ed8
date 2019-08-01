@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f59bb1aa_3e4ee11c",
+        "filename": "tasks/main.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-08-01T16:24:58Z",
+      "side": 1,
+      "message": "You should be able to do a combined step using an array.",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 17
+      },
+      "revId": "9afa7f53db0e38d1af771c28931c56b0b1912ed8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
