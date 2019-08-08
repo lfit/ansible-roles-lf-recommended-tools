@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ab25f67b_a0002a51",
+        "filename": "tasks/pkg-names-RedHat.yaml",
+        "patchSetId": 13
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-08-08T19:51:33Z",
+      "side": 1,
+      "message": "I\u0027m not sure if ansible is going to be able to resolve this correctly. I would use the short name of @devel-tools instead of something that has a space in it.",
+      "range": {
+        "startLine": 2,
+        "startChar": 24,
+        "endLine": 2,
+        "endChar": 42
+      },
+      "revId": "9c90698158d2e0b9efaffd3728e736d6c8b09441",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "26796c60_b5e20194",
+        "filename": "vars/RedHat.yaml",
+        "patchSetId": 13
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-08-08T19:51:33Z",
+      "side": 1,
+      "message": "I\u0027m not sure if ansible is going to be able to resolve this correctly. I would use the short name of @devel-tools instead of something that has a space in it.",
+      "range": {
+        "startLine": 3,
+        "startChar": 6,
+        "endLine": 3,
+        "endChar": 23
+      },
+      "revId": "9c90698158d2e0b9efaffd3728e736d6c8b09441",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
