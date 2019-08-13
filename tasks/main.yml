@@ -26,7 +26,6 @@
   with_items:
     - rake
     - package_cloud
-  become: true
 
 - name: Install PlantUML
   block:
