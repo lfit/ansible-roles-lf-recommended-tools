@@ -1,4 +1,5 @@
 # UUID                                                                                           	Group Name
 #
+13da9355097e0d8615a48d49c5358ca25f06dd8e                                                         	Administrators
 d68d00a2419f8ff627fc120cf9dd9055ae422153                                                         	GitHub Replication
 ldap:cn=lf-gerrit-ansible-roles-lf-recommended-tools-committers,ou=Groups,dc=freestandards,dc=org	ldap/lf-gerrit-ansible-roles-lf-recommended-tools-committers
