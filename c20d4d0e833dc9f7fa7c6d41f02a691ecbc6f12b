@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "56a9fd1a_12533569",
+        "filename": "vars/Debian.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2019-09-19T20:59:32Z",
+      "side": 1,
+      "message": "duplicate",
+      "revId": "c20d4d0e833dc9f7fa7c6d41f02a691ecbc6f12b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
