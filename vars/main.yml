@@ -9,6 +9,7 @@ lf_recommended_tools_packages_common:
   - dstat
   - facter
   - git
+  - git-review
   - graphviz
   - jq
   - sshpass
