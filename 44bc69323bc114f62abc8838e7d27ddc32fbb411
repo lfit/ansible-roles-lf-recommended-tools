@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1394e6a5_092ec4d5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-10-19T03:11:10Z",
+      "side": 1,
+      "message": "probably should be doing this as a separate patch before this so that the change can be reverted in the future?",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 11
+      },
+      "revId": "44bc69323bc114f62abc8838e7d27ddc32fbb411",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
