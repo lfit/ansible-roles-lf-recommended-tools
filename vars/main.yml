@@ -13,6 +13,7 @@ lf_recommended_tools_packages_common:
   - jq
   - sshpass
   - sshuttle
+  - tree
   - unzip
   - wget
   - xmlstarlet
