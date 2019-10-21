@@ -15,4 +15,5 @@ if [ ! -z "$JENKINS_URL" ]; then
     ln -sf "$WORKSPACE" ../lf-recommended-tools
 fi
 
+export MOLECULE_DEBUG=True
 molecule test --destroy=always
