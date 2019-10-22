@@ -16,6 +16,24 @@
       "revId": "84c31d88afc49fc2a8f586e0a7e9ed98ddbeaeda",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "da869774_d07f308e",
+        "filename": "tox.ini",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-10-22T20:44:27Z",
+      "side": 1,
+      "message": "Nevermind, I missed that it was lower in the commit message",
+      "parentUuid": "50077792_9a8abd44",
+      "revId": "84c31d88afc49fc2a8f586e0a7e9ed98ddbeaeda",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
