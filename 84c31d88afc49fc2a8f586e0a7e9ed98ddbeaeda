@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "50077792_9a8abd44",
+        "filename": "tox.ini",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-10-22T20:40:03Z",
+      "side": 1,
+      "message": "The commit message mentions removal of the basepython, but why the whitelist_externals addition?",
+      "revId": "84c31d88afc49fc2a8f586e0a7e9ed98ddbeaeda",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
