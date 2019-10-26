@@ -30,7 +30,7 @@
         mode: 0755
     - name: Fetch PlantUML
       get_url:
-        url: http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
+        url: https://sourceforge.net/projects/plantuml/files/plantuml.jar/download
         dest: /opt/plantuml/plantuml.jar
         mode: 0644
     - name: Install PlantUML executable script
