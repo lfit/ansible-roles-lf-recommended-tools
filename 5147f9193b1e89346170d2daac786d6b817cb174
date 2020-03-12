@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "09b7ec46_17358faf",
+        "filename": "molecule/default/molecule.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-03-12T22:32:15Z",
+      "side": 1,
+      "message": "Do we even need this line?",
+      "range": {
+        "startLine": 8,
+        "startChar": 2,
+        "endLine": 8,
+        "endChar": 12
+      },
+      "revId": "5147f9193b1e89346170d2daac786d6b817cb174",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "255e5d57_f8fa5e43",
+        "filename": "molecule/default/molecule.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-03-12T22:32:15Z",
+      "side": 1,
+      "message": "this should be linting all the files under tasks/*.yml",
+      "range": {
+        "startLine": 9,
+        "startChar": 3,
+        "endLine": 9,
+        "endChar": 27
+      },
+      "revId": "5147f9193b1e89346170d2daac786d6b817cb174",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
