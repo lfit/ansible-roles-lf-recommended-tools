@@ -45,6 +45,29 @@
       "revId": "5147f9193b1e89346170d2daac786d6b817cb174",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7c3c999f_c473fd02",
+        "filename": "tox.ini",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-03-12T22:33:33Z",
+      "side": 1,
+      "message": "also should be moving to python3, I dont see any reason to sit on py2 still.",
+      "range": {
+        "startLine": 8,
+        "startChar": 1,
+        "endLine": 8,
+        "endChar": 18
+      },
+      "revId": "5147f9193b1e89346170d2daac786d6b817cb174",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
     }
   ]
 }
