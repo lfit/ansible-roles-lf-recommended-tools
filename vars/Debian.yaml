@@ -9,6 +9,7 @@ lf_recommended_tools_packages_distro:
   - llvm
   - netcat
   - parallel
+  - sshuttle
   - tk-dev
   - wget
   - xz-utils

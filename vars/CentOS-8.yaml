@@ -8,6 +8,6 @@ lf_recommended_tools_packages_distro:
   - perl-Digest-SHA
   - perl-ExtUtils-MakeMaker
   - perl-XML-XPath
-  - sshuttle
   - sqlite
   - xz
+
