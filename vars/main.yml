@@ -12,7 +12,6 @@ lf_recommended_tools_packages_common:
   - graphviz
   - jq
   - sshpass
-  - sshuttle
   - tree
   - unzip
   - wget
