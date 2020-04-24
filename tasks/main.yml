@@ -35,6 +35,10 @@
         url: https://sourceforge.net/projects/plantuml/files/plantuml.jar/download
         dest: /opt/plantuml/plantuml.jar
         mode: 0644
+      register: result
+      until: result|succeeded
+      retries: 3
+      delay: 30
     - name: Install PlantUML executable script
       copy:
         content: |
