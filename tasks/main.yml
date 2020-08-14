@@ -7,9 +7,19 @@
     - "{{ ansible_os_family }}.yaml"
 
 - name: Setup Ansible PPA
-  apt_repository:
-    repo: ppa:ansible/ansible
-  when: ansible_distribution == 'Ubuntu'
+  block:
+    # gnupg2 is required to install the PPA and is missing on Ubuntu 18.04
+    - name: Install gnupg2
+      apt:
+        name: gnupg2
+        state: present
+    - name: Setup Ansible PPA
+      apt_repository:
+        repo: ppa:ansible/ansible
+  # Ubuntu 20.04 PPA is not yet available so skip installing it for now.
+  # TODO: Figure out if recent versions of Ansible in Ubuntu is sufficient for
+  #.      our use without the need to pull in from PPA.
+  when: ansible_distribution == 'Ubuntu' and ansible_facts['distribution_major_version'] is version('20', '<')
   become: true
 
 - name: Install LF Recommended Tools
