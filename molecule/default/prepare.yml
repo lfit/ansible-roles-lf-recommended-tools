@@ -3,6 +3,11 @@
   hosts: all
   gather_facts: true
   tasks:
+    - name: Update APT cache
+      apt:
+        update_cache: yes
+      when: ansible_distribution == 'Ubuntu'
+      become: true
     - name: Install EPEL repository
       yum:
         name: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
