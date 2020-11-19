@@ -22,6 +22,13 @@
   when: ansible_distribution == 'Ubuntu' and ansible_facts['distribution_major_version'] is version('20', '<')
   become: true
 
+# Required for direct install of parallel package from linuxsoft.cern.ch
+- rpm_key:
+    state: present
+    key: https://linuxsoft.cern.ch/cern/centos/7/os/x86_64/RPM-GPG-KEY-cern
+  when: ansible_os_family == 'RedHat'
+  become: true
+
 - name: Install LF Recommended Tools
   package:
     name: "{{ lf_recommended_tools_packages }}"
