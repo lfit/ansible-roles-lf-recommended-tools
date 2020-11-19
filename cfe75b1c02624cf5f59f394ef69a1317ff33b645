@@ -1,0 +1,8 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Vanessa Rene Valderrama <vvalderrama@linuxfoundation.org>
+Code-Review+2: Aric Gardner <agardner@linuxfoundation.org>
+Submitted-by: Eric Ball <eball@linuxfoundation.org>
+Submitted-at: Thu, 19 Nov 2020 17:12:31 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/ansible/roles/lf-recommended-tools/+/66104
+Project: ansible/roles/lf-recommended-tools
+Branch: refs/heads/master
