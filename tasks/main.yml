@@ -18,7 +18,7 @@
         repo: ppa:ansible/ansible
   # Ubuntu 20.04 PPA is not yet available so skip installing it for now.
   # TODO: Figure out if recent versions of Ansible in Ubuntu is sufficient for
-  #.      our use without the need to pull in from PPA.
+  #       our use without the need to pull in from PPA.
   when: ansible_distribution == 'Ubuntu' and ansible_facts['distribution_major_version'] is version('20', '<')
   become: true
 
@@ -29,10 +29,19 @@
   when: ansible_os_family == 'RedHat'
   become: true
 
-- name: Install LF Recommended Tools
+- name: Install LF Recommended Tools on RedHat
   package:
     name: "{{ lf_recommended_tools_packages }}"
     state: present
+  when: ansible_os_family == 'RedHat'
+  become: true
+
+- name: Install LF Recommended Tools on Debian
+  # Note: apt module requires state: 'fixed' not in dnf or yum modules
+  package:
+    name: "{{ lf_recommended_tools_packages }}"
+    state: fixed
+  when: ansible_os_family == 'Debian'
   become: true
 
 - name: Install fedora-packager
