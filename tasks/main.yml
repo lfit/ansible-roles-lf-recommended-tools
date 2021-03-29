@@ -32,7 +32,7 @@
 - name: Install LF Recommended Tools
   package:
     name: "{{ lf_recommended_tools_packages }}"
-    state: present
+    state: fixed
   become: true
 
 - name: Install fedora-packager
