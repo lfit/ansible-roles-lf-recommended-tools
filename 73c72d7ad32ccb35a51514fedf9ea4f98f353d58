@@ -16,6 +16,24 @@
       "message": "This is not the correct solution to this issue. yamllint is being run as part of molecule tests in molecule/default/converge.yml. It should not be added as a tox env. What should be done is including it as a dep of the molecule env in tox.ini.",
       "revId": "73c72d7ad32ccb35a51514fedf9ea4f98f353d58",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ec7f6dd_d27de008",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2021-03-30T22:09:11Z",
+      "side": 1,
+      "message": "Yea, It\u0027s a soft dependency for ansible-lint. I was hoping to add yamllint for lf-reco-tools repo, but I have removed that for now since its outside the scope.",
+      "parentUuid": "3aa20285_3519c830",
+      "revId": "73c72d7ad32ccb35a51514fedf9ea4f98f353d58",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
