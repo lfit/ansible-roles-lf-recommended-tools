@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3aa20285_3519c830",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2021-03-30T21:13:30Z",
+      "side": 1,
+      "message": "This is not the correct solution to this issue. yamllint is being run as part of molecule tests in molecule/default/converge.yml. It should not be added as a tox env. What should be done is including it as a dep of the molecule env in tox.ini.",
+      "revId": "73c72d7ad32ccb35a51514fedf9ea4f98f353d58",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
