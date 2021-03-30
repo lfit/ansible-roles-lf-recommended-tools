@@ -16,6 +16,29 @@
       "message": "How would fixed fix a missing package?\n\nfixed: attempt to correct a system with broken dependencies in place.\n\nPerhaps its a bad mirror?",
       "revId": "c871044ee8b3a33f87a612cbc7f3ed62d09bd897",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a0189ba1_4028103e",
+        "filename": "tasks/main.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-03-30T17:40:15Z",
+      "side": 1,
+      "message": "What\u0027s with the extra \u0027.\u0027 here? that doesn\u0027t make sense to me",
+      "range": {
+        "startLine": 21,
+        "startChar": 4,
+        "endLine": 21,
+        "endChar": 5
+      },
+      "revId": "c871044ee8b3a33f87a612cbc7f3ed62d09bd897",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
