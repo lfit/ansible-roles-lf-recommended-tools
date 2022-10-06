@@ -1,7 +1,6 @@
 ---
 lf_recommended_tools_packages: "{{ lf_recommended_tools_packages_common }} + {{ lf_recommended_tools_packages_distro }}"
 lf_recommended_tools_packages_common:
-  - ansible
   - ant
   - crudini
   - curl
