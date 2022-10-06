@@ -6,22 +6,6 @@
     - "{{ ansible_distribution }}.yaml"
     - "{{ ansible_os_family }}.yaml"
 
-- name: Setup Ansible PPA
-  block:
-    # gnupg2 is required to install the PPA and is missing on Ubuntu 18.04
-    - name: Install gnupg2
-      apt:
-        name: gnupg2
-        state: present
-    - name: Setup Ansible PPA
-      apt_repository:
-        repo: ppa:ansible/ansible
-  # Ubuntu 20.04 PPA is not yet available so skip installing it for now.
-  # TODO: Figure out if recent versions of Ansible in Ubuntu is sufficient for
-  #       our use without the need to pull in from PPA.
-  when: ansible_distribution == 'Ubuntu' and ansible_facts['distribution_major_version'] is version('20', '<')
-  become: true
-
 # Required for direct install of parallel package from linuxsoft.cern.ch
 - rpm_key:
     state: present
@@ -59,6 +43,7 @@
     - name: Fetch PlantUML
       get_url:
         url: https://sourceforge.net/projects/plantuml/files/plantuml.jar/download
+        validate_certs: no
         dest: /opt/plantuml/plantuml.jar
         mode: 0644
       register: result
