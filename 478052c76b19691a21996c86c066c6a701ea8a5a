@@ -16,6 +16,23 @@
       "message": "recheck",
       "revId": "478052c76b19691a21996c86c066c6a701ea8a5a",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6357baa1_98c6b4e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-10-06T22:50:13Z",
+      "side": 1,
+      "message": "xmlstarlet has been removed from EPEL. https://bugzilla.redhat.com/show_bug.cgi?id\u003d1757000\n\nI think the recommended way is to install this through snap, no?",
+      "revId": "478052c76b19691a21996c86c066c6a701ea8a5a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
