@@ -1,2 +1,9 @@
 ---
 # handlers file for lf-recommended-tools
+
+handlers:
+  - name: restart sshd
+    service:
+      name: sshd
+      state: restarted
+    become: yes
