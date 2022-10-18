@@ -4,6 +4,7 @@ lf_recommended_tools_packages_distro:
   - fedora-packager
   - findutils
   - https://linuxsoft.cern.ch/cern/centos/7/cern/x86_64/Packages/parallel-20150522-1.el7.cern.noarch.rpm
+  - https://download.fedoraproject.org/pub/epel/testing/7/SRPMS/m/mock-core-configs-31.6-1.el7.src.rpm
   - nc
   - perl-Digest-SHA
   - perl-ExtUtils-MakeMaker
