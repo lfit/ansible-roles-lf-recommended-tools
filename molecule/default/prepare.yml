@@ -19,3 +19,10 @@
         state: present
       when: ansible_os_family == 'RedHat'
       become: true
+    - name: Install mock-core-configs
+      yum:
+        name: mock-core-configs-31.6-1
+        state: present
+      when:
+        - ansible_os_family == 'RedHat' and ansible_facts['distribution_major_version'] is version('7', '>=')
+      become: true
