@@ -2,6 +2,10 @@
 - name: Prepare
   hosts: all
   gather_facts: true
+
+  collections:
+  - name: community.general
+
   tasks:
     - name: Update APT cache
       apt:
@@ -18,4 +22,11 @@
         name: https://dl.fedoraproject.org/pub/epel/epel-release-latest-{{ ansible_distribution_major_version }}.noarch.rpm
         state: present
       when: ansible_os_family == 'RedHat'
+      become: true
+    - name: Install mock-core-configs from remote repo
+      community.general.yum_versionlock:
+        name: https://rpmfind.net/linux/epel/testing/7/aarch64/Packages/m/mock-core-configs-31.6-1.el7.noarch.rpm
+        state: present
+      when:
+        - ansible_os_family == 'RedHat' and ansible_distribution_major_version == "7"
       become: true
