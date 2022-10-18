@@ -1,8 +1,2 @@
 ---
 # handlers file for lf-recommended-tools
-
-- name: restart sshd
-  service:
-    name: sshd
-    state: restarted
-  become: true
