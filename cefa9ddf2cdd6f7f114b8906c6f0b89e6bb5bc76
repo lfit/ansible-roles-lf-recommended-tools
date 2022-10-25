@@ -1,0 +1,7 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Andrew Grimberg <agrimberg@linuxfoundation.org>
+Submitted-by: Andrew Grimberg <agrimberg@linuxfoundation.org>
+Submitted-at: Tue, 25 Oct 2022 17:47:58 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/ansible/roles/lf-recommended-tools/+/70884
+Project: ansible/roles/lf-recommended-tools
+Branch: refs/heads/master
