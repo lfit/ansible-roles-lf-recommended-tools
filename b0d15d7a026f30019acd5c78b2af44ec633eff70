@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59c7b2a2_1996462a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-07T10:44:27Z",
+      "side": 1,
+      "message": "Carefully tested in Docker. Can I get another round of reviews?",
+      "revId": "b0d15d7a026f30019acd5c78b2af44ec633eff70",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
