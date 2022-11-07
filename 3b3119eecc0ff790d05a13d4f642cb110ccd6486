@@ -1,0 +1,95 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31a31ba9_4308a668",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-07T12:54:12Z",
+      "side": 1,
+      "message": "you are having a block within block, Is that expected? Check indent.",
+      "range": {
+        "startLine": 64,
+        "startChar": 1,
+        "endLine": 71,
+        "endChar": 10
+      },
+      "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ddf4266b_623bbde4",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-07T12:54:12Z",
+      "side": 1,
+      "message": "rm the blank line",
+      "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fcd9bd57_11ebdea9",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-07T12:54:12Z",
+      "side": 1,
+      "message": "rm the blank line",
+      "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "301b3186_5e401e04",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-07T12:54:12Z",
+      "side": 1,
+      "message": "rm the blank line",
+      "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e37bdda9_c00c7b59",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-07T12:54:12Z",
+      "side": 1,
+      "message": "rm the blank line",
+      "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
