@@ -72,6 +72,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a24792f4_edf3ab72",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-07T14:48:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0fe1c122_965d6817",
+      "range": {
+        "startLine": 64,
+        "startChar": 1,
+        "endLine": 71,
+        "endChar": 10
+      },
+      "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ddf4266b_623bbde4",
