@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39c5d56f_bbf4e214",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-07T11:21:36Z",
+      "side": 1,
+      "message": "I have some concerns about this error:\n\n63:1      error    syntax error: expected \u003cblock end\u003e, but found \u0027?\u0027 (syntax)\n65:3      error    wrong indentation: expected 4 but found 2  (indentation)\n\nI am seeing the above in both the Jenkins verification jobs and also when using YAMLLINT locally on my machine.\n\nWith respect to the line below:\n\n144:1     error    too many blank lines (1 \u003e 0)  (empty-lines)\n\nI am getting inconsistent results with regard to this error. If I add a final carriage return, I get one error, when I remove it another. Either way some of the verification/lint tooling complains? I\u0027d like to turn around any fixes required to this code fairly promptly, as I\u0027ve been sat on a ticket for a while and need to try and get this to the point it can be merged.",
+      "revId": "5a5d3facb46be93129739cdaba621aedfe04f764",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
