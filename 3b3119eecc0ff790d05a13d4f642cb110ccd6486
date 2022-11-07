@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "92ad8931_6bb5c5d9",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-07T14:19:00Z",
+      "side": 1,
+      "message": "I think it makes sense to have two levels of blocks and grouping of tasks. A top level for anything shared related to the NodeSource Repository and NodeJS install, in this case just the common variable. Then two blocks, one for each of the distribution categories. I have also gone around in many circles today trying different ways of encapsulating the flow logic. I\u0027m still not happy about some of the feedback from the linting tools?",
+      "parentUuid": "31a31ba9_4308a668",
+      "range": {
+        "startLine": 64,
+        "startChar": 1,
+        "endLine": 71,
+        "endChar": 10
+      },
+      "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ddf4266b_623bbde4",
         "filename": "tasks/main.yml",
         "patchSetId": 3
@@ -37,6 +61,24 @@
       "writtenOn": "2022-11-07T12:54:12Z",
       "side": 1,
       "message": "rm the blank line",
+      "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "acf28404_e56ae783",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-07T14:19:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ddf4266b_623bbde4",
       "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -58,6 +100,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4b7f069_58793a38",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-07T14:19:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fcd9bd57_11ebdea9",
+      "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "301b3186_5e401e04",
@@ -75,6 +135,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5a77dfe_709405ca",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-07T14:19:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "301b3186_5e401e04",
+      "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e37bdda9_c00c7b59",
@@ -88,6 +166,24 @@
       "writtenOn": "2022-11-07T12:54:12Z",
       "side": 1,
       "message": "rm the blank line",
+      "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d1b50f2_67144c43",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-07T14:19:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e37bdda9_c00c7b59",
       "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
