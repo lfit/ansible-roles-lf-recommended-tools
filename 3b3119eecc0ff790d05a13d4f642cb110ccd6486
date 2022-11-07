@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0fe1c122_965d6817",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-07T14:47:49Z",
+      "side": 1,
+      "message": "Actually, this latest patch now passes lint :-)",
+      "parentUuid": "92ad8931_6bb5c5d9",
+      "range": {
+        "startLine": 64,
+        "startChar": 1,
+        "endLine": 71,
+        "endChar": 10
+      },
+      "revId": "3b3119eecc0ff790d05a13d4f642cb110ccd6486",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ddf4266b_623bbde4",
         "filename": "tasks/main.yml",
         "patchSetId": 3
