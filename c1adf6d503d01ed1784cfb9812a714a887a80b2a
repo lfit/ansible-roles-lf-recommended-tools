@@ -33,6 +33,29 @@
       "message": "Lint failure prior to recheck was transient; now passing",
       "revId": "c1adf6d503d01ed1784cfb9812a714a887a80b2a",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bcb90b52_f899c42f",
+        "filename": "tasks/main.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2022-11-08T16:54:44Z",
+      "side": 1,
+      "message": "Use os_family here and then it\u0027s just \u003d\u003d \u0027RedHat\u0027",
+      "range": {
+        "startLine": 68,
+        "startChar": 12,
+        "endLine": 69,
+        "endChar": 71
+      },
+      "revId": "c1adf6d503d01ed1784cfb9812a714a887a80b2a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
