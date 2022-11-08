@@ -1,0 +1,124 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f6af18d_4ce74de8",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-08T02:43:29Z",
+      "side": 1,
+      "message": "You probably don\u0027t need this here?",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 14
+      },
+      "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34707316_60a97143",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-08T02:43:29Z",
+      "side": 1,
+      "message": "Move the become: true to the end of the block. this improves readability to know where the block ends.",
+      "range": {
+        "startLine": 65,
+        "startChar": 2,
+        "endLine": 65,
+        "endChar": 14
+      },
+      "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d5c40eb_79ba26bd",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-08T02:43:29Z",
+      "side": 1,
+      "message": "rm blank line after the block, makes the code consistant with rest of the roles.",
+      "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a66cc8b8_62303f52",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-08T02:43:29Z",
+      "side": 1,
+      "message": "rm blank line after the block, makes the code consistant with rest of the roles.",
+      "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de22daa2_0f05b0b6",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-08T02:43:29Z",
+      "side": 1,
+      "message": "any reason the minor release version is hardcoded here? that would end up picking older versions of the nodejs.",
+      "range": {
+        "startLine": 92,
+        "startChar": 54,
+        "endLine": 92,
+        "endChar": 56
+      },
+      "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c096c25e_c2d9fc69",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-08T02:43:29Z",
+      "side": 1,
+      "message": "rm blank line after the block, makes the code consistant with rest of the roles.",
+      "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
