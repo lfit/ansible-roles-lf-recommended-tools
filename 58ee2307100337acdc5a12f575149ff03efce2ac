@@ -24,6 +24,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "91473cc1_49a46012",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-08T14:32:39Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "5f6af18d_4ce74de8",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 14
+      },
+      "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "34707316_60a97143",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-11-08T02:43:29Z",
       "side": 1,
       "message": "Move the become: true to the end of the block. this improves readability to know where the block ends.",
+      "range": {
+        "startLine": 65,
+        "startChar": 2,
+        "endLine": 65,
+        "endChar": 14
+      },
+      "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fc2a6fe_baec15e1",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-08T14:32:39Z",
+      "side": 1,
+      "message": "Ansible lint recommends this order:\n\nkey-order[task]: You can improve the task key order to: name, become, block (warning)\nmain.yml:36 Task/Handler: Install PlantUML\n\nFrankly, I can see this both ways. I think it make sense to declare the code that is about to run requires administrative privileges, but the become statement at the end of the block does help show where the code block ends. If this is our convention I\u0027ll move them to the end.",
+      "parentUuid": "34707316_60a97143",
       "range": {
         "startLine": 65,
         "startChar": 2,
@@ -64,6 +112,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "48f1c18c_cf001c91",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-08T14:32:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4d5c40eb_79ba26bd",
+      "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a66cc8b8_62303f52",
@@ -77,6 +143,24 @@
       "writtenOn": "2022-11-08T02:43:29Z",
       "side": 1,
       "message": "rm blank line after the block, makes the code consistant with rest of the roles.",
+      "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bdba9da8_003dd69e",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-08T14:32:39Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a66cc8b8_62303f52",
       "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -104,6 +188,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b599db7_beb2c8b5",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-08T14:32:39Z",
+      "side": 1,
+      "message": "This comes straight out of the official NodeSource documentation here:\n\nhttps://github.com/geerlingguy/ansible-role-nodejs/blob/master/tasks/setup-RedHat.yml\n\nRemoving it leads to a failure:\n\nTASK [Add Nodesource repositories for Node.js (CentOS 7+).] ****************************************************************************\nfatal: [localhost]: FAILED! \u003d\u003e {\"changed\": false, \"msg\": \"Failure downloading https://rpm.nodesource.com/pub_16.x/el/7/aarch64/nodesource-release-el7.noarch.rpm, HTTP Error 404: Not Found\"}",
+      "parentUuid": "de22daa2_0f05b0b6",
+      "range": {
+        "startLine": 92,
+        "startChar": 54,
+        "endLine": 92,
+        "endChar": 56
+      },
+      "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c096c25e_c2d9fc69",
@@ -117,6 +225,24 @@
       "writtenOn": "2022-11-08T02:43:29Z",
       "side": 1,
       "message": "rm blank line after the block, makes the code consistant with rest of the roles.",
+      "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f367962_1ddb79ab",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-08T14:32:39Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "c096c25e_c2d9fc69",
       "revId": "58ee2307100337acdc5a12f575149ff03efce2ac",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }

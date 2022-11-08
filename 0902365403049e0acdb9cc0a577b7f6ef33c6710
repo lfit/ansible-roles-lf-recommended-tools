@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "214735ec_151ae602",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-08T14:32:39Z",
+      "side": 1,
+      "message": "Reverted changes on legacy codebase. Removed several blank lines. No other major changes. Passes lint tools. Tested under CentOS7,8 and Ubuntu-18.04/20.04.",
+      "revId": "0902365403049e0acdb9cc0a577b7f6ef33c6710",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}

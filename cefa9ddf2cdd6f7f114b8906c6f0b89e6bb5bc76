@@ -24,6 +24,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1ebf3fe_c8117c18",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-08T14:32:39Z",
+      "side": 0,
+      "message": "Was probably intended to move to the top; not going to make any changes to the legacy code now, it can stay exactly as it was and I\u0027ll ignore the ansible-lint complaints about it.",
+      "parentUuid": "742dcd73_f6b84d85",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 14
+      },
+      "revId": "cefa9ddf2cdd6f7f114b8906c6f0b89e6bb5bc76",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d2cac83c_830adebd",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-11-08T02:43:29Z",
       "side": 0,
       "message": "This change is not required.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 14
+      },
+      "revId": "cefa9ddf2cdd6f7f114b8906c6f0b89e6bb5bc76",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "efb905b2_0f0568f1",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-08T14:32:39Z",
+      "side": 0,
+      "message": "Ack",
+      "parentUuid": "d2cac83c_830adebd",
       "range": {
         "startLine": 21,
         "startChar": 0,
@@ -70,6 +118,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "83f19224_d0294e61",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-08T14:32:39Z",
+      "side": 0,
+      "message": "Ack",
+      "parentUuid": "d07797b2_39f8ffab",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 14
+      },
+      "revId": "cefa9ddf2cdd6f7f114b8906c6f0b89e6bb5bc76",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3f1389e2_ac86aec4",
@@ -83,6 +155,30 @@
       "writtenOn": "2022-11-08T02:43:29Z",
       "side": 0,
       "message": "This change is not required.",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 14
+      },
+      "revId": "cefa9ddf2cdd6f7f114b8906c6f0b89e6bb5bc76",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ae4b294_47d1baa4",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-08T14:32:39Z",
+      "side": 0,
+      "message": "Ack",
+      "parentUuid": "3f1389e2_ac86aec4",
       "range": {
         "startLine": 34,
         "startChar": 0,
