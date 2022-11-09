@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee07ce9e_0f57514c",
+        "filename": "tasks/main.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-11-09T18:21:06Z",
+      "side": 1,
+      "message": "according to some articles I just read, RedHat family includes CentOS, so you don\u0027t need the first statement, just the one for RedHat",
+      "revId": "ab6db96ff1f5db028e974c804af8476db23a9c66",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
