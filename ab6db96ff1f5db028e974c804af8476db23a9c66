@@ -16,6 +16,46 @@
       "message": "according to some articles I just read, RedHat family includes CentOS, so you don\u0027t need the first statement, just the one for RedHat",
       "revId": "ab6db96ff1f5db028e974c804af8476db23a9c66",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e692e49b_fc79549a",
+        "filename": "tasks/main.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-10T02:12:06Z",
+      "side": 1,
+      "message": "You will need to either have separate blocks or include ubuntu here.",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 53
+      },
+      "revId": "ab6db96ff1f5db028e974c804af8476db23a9c66",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d831322_59cb5b31",
+        "filename": "tasks/main.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-10T02:12:06Z",
+      "side": 1,
+      "message": "This is logically incorrect. Why? The parent block checks only for Redhat under which there is a sub-block that would unlikely get executed when you try to build this with Ubuntu template.\n\nCheck the molecule test logs:\n\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-ansible-roles-tox-verify-any/746/console\n\n03:27:09     TASK [lf-recommended-tools : Add Nodesource repositories for Node.js (CentOS 7+).] ***\n03:27:10     skipping: [ubuntu1804]\n03:27:10     skipping: [ubuntu2004]\n03:27:12     changed: [centos7]\n03:27:13     changed: [centos8]\n\nHave you tried building images for each supported platform?",
+      "revId": "ab6db96ff1f5db028e974c804af8476db23a9c66",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
