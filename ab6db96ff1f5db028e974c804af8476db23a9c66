@@ -65,6 +65,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb3f0be4_1d758e17",
+        "filename": "tasks/main.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-16T23:12:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ee07ce9e_0f57514c",
+      "revId": "ab6db96ff1f5db028e974c804af8476db23a9c66",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6d831322_59cb5b31",
@@ -96,6 +114,24 @@
       "side": 1,
       "message": "This works as expected, pls ignore the comment.",
       "parentUuid": "6d831322_59cb5b31",
+      "revId": "ab6db96ff1f5db028e974c804af8476db23a9c66",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23bbb1c9_275f1c4d",
+        "filename": "tasks/main.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-16T23:12:38Z",
+      "side": 1,
+      "message": "This works as advertised.",
+      "parentUuid": "e2cc13ba_4aabab5e",
       "revId": "ab6db96ff1f5db028e974c804af8476db23a9c66",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }

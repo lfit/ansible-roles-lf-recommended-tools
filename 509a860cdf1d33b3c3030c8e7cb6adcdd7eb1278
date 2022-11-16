@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b765f46_0eaa641b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2022-11-16T23:12:38Z",
+      "side": 1,
+      "message": "Removed redundant references to CentOS",
+      "revId": "509a860cdf1d33b3c3030c8e7cb6adcdd7eb1278",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
