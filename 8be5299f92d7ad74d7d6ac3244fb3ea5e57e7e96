@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d2b3f4b_b05b9f44",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-01-09T11:48:17Z",
+      "side": 1,
+      "message": "Not sure if what I am proposing here is valid/correct; you provide some guidance?",
+      "revId": "8be5299f92d7ad74d7d6ac3244fb3ea5e57e7e96",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
