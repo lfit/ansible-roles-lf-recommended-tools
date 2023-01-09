@@ -5,3 +5,4 @@ pkg_perl_digest_sha: perl-Digest-SHA
 pkg_perl_extutils_makemaker: perl-ExtUtils-MakeMaker
 pkg_perl_xml_xpath: perl-XML-XPath
 pkg_xz: xz
+pkg_libsctp: lksctp-tools-devel
