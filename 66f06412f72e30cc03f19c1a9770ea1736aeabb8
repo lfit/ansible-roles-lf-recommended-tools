@@ -1,6 +1,98 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "e609dcd3_84cf81a6",
+        "filename": ".github/workflow/gerrit-verify.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2024-01-29T22:26:55Z",
+      "side": 1,
+      "message": "The current latest version is v0.6.",
+      "range": {
+        "startLine": 70,
+        "startChar": 49,
+        "endLine": 70,
+        "endChar": 53
+      },
+      "revId": "66f06412f72e30cc03f19c1a9770ea1736aeabb8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b894c37_820c1a51",
+        "filename": ".github/workflow/gerrit-verify.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2024-01-29T22:26:55Z",
+      "side": 1,
+      "message": "See above.",
+      "range": {
+        "startLine": 87,
+        "startChar": 49,
+        "endLine": 87,
+        "endChar": 53
+      },
+      "revId": "66f06412f72e30cc03f19c1a9770ea1736aeabb8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa5ccb4a_def2eef4",
+        "filename": ".github/workflow/gerrit-verify.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2024-01-29T22:26:55Z",
+      "side": 1,
+      "message": "Can we bump this up? 3.8 will be EOL in October of this year.",
+      "range": {
+        "startLine": 93,
+        "startChar": 26,
+        "endLine": 93,
+        "endChar": 31
+      },
+      "revId": "66f06412f72e30cc03f19c1a9770ea1736aeabb8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89b1ec9e_63230665",
+        "filename": ".github/workflow/gerrit-verify.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2024-01-29T22:26:55Z",
+      "side": 1,
+      "message": "See above.",
+      "range": {
+        "startLine": 113,
+        "startChar": 8,
+        "endLine": 113,
+        "endChar": 96
+      },
+      "revId": "66f06412f72e30cc03f19c1a9770ea1736aeabb8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "c6ae6926_f7e7fea1",
