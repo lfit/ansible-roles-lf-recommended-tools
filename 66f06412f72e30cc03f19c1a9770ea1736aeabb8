@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6ae6926_f7e7fea1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2024-01-29T21:39:45Z",
+      "side": 1,
+      "message": "Anil, on a general note, I think this should be two changes: one for the GHA workflow, one for the dependencies update.",
+      "revId": "66f06412f72e30cc03f19c1a9770ea1736aeabb8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
