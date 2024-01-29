@@ -24,6 +24,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ae2e9e2_9c3549df",
+        "filename": ".github/workflow/gerrit-verify.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2024-01-29T22:34:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e609dcd3_84cf81a6",
+      "range": {
+        "startLine": 70,
+        "startChar": 49,
+        "endLine": 70,
+        "endChar": 53
+      },
+      "revId": "66f06412f72e30cc03f19c1a9770ea1736aeabb8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5b894c37_820c1a51",
@@ -37,6 +61,30 @@
       "writtenOn": "2024-01-29T22:26:55Z",
       "side": 1,
       "message": "See above.",
+      "range": {
+        "startLine": 87,
+        "startChar": 49,
+        "endLine": 87,
+        "endChar": 53
+      },
+      "revId": "66f06412f72e30cc03f19c1a9770ea1736aeabb8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5ff5964_a991c4a5",
+        "filename": ".github/workflow/gerrit-verify.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2024-01-29T22:34:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5b894c37_820c1a51",
       "range": {
         "startLine": 87,
         "startChar": 49,
@@ -70,6 +118,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d05b384_d54ee490",
+        "filename": ".github/workflow/gerrit-verify.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2024-01-29T22:34:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa5ccb4a_def2eef4",
+      "range": {
+        "startLine": 93,
+        "startChar": 26,
+        "endLine": 93,
+        "endChar": 31
+      },
+      "revId": "66f06412f72e30cc03f19c1a9770ea1736aeabb8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "89b1ec9e_63230665",
@@ -83,6 +155,30 @@
       "writtenOn": "2024-01-29T22:26:55Z",
       "side": 1,
       "message": "See above.",
+      "range": {
+        "startLine": 113,
+        "startChar": 8,
+        "endLine": 113,
+        "endChar": 96
+      },
+      "revId": "66f06412f72e30cc03f19c1a9770ea1736aeabb8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd982a7e_7ef82ef3",
+        "filename": ".github/workflow/gerrit-verify.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2024-01-29T22:34:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "89b1ec9e_63230665",
       "range": {
         "startLine": 113,
         "startChar": 8,
@@ -123,6 +219,23 @@
       "writtenOn": "2024-01-29T21:54:57Z",
       "side": 1,
       "message": "Its bit of a chicken-egg situation to get the verify work.",
+      "revId": "66f06412f72e30cc03f19c1a9770ea1736aeabb8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a9d3bf0_e0ab9e37",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2024-01-29T22:34:02Z",
+      "side": 1,
+      "message": "I\u0027m going to resolve all comments and give this a +1. None of these are major issues, and several other roles have been merged like this. I\u0027d actually prefer these all look the same rather than have these small issues fixed now.",
       "revId": "66f06412f72e30cc03f19c1a9770ea1736aeabb8",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
