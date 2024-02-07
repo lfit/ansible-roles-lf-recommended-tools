@@ -1,5 +1,5 @@
 ---
-lf_recommended_tools_packages: "{{ lf_recommended_tools_packages_common }} + {{ lf_recommended_tools_packages_distro }}"
+lf_recommended_tools_packages: "{{ lf_recommended_tools_packages_common + lf_recommended_tools_packages_distro }}"
 lf_recommended_tools_packages_common:
   - ant
   - crudini
@@ -8,6 +8,7 @@ lf_recommended_tools_packages_common:
   - dstat
   - facter
   - git
+  - gpg
   - graphviz
   - jq
   - sshpass
