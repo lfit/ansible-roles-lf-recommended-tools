@@ -1,0 +1,9 @@
+Verified+1: LFIT GitHub-Gerrit <releng+github-lfit-gerrit@linuxfoundation.org>
+Code-Review+2: Anil Belur <abelur@linuxfoundation.org>
+Verified+1: LFIT Required GHA <releng+lfit-required-gha@linuxfoundation.org>
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Submitted-by: Anil Belur <abelur@linuxfoundation.org>
+Submitted-at: Thu, 08 Feb 2024 03:31:58 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/ansible/roles/lf-recommended-tools/+/72612
+Project: ansible/roles/lf-recommended-tools
+Branch: refs/heads/master
