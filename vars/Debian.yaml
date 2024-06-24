@@ -12,3 +12,5 @@ lf_recommended_tools_packages_distro:
   - tk-dev
   - wget
   - xz-utils
+  - enchant
+  - enchant-2

@@ -10,3 +10,4 @@ lf_recommended_tools_packages_distro:
   - perl-XML-XPath
   - sqlite
   - xz
+  - enchant2
