@@ -8,6 +8,7 @@ lf_recommended_tools_packages_distro:
   - libxml-xpath-perl
   - llvm
   - netcat
+  - net-tools
   - parallel
   - tk-dev
   - wget
