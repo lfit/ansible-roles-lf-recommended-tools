@@ -67,7 +67,7 @@ jobs:
     needs: prepare
     runs-on: ubuntu-latest
     steps:
-      - uses: lfit/checkout-gerrit-change-action@v0.6
+      - uses: lfit/checkout-gerrit-change-action@v0.9
         with:
           gerrit-refspec: ${{ inputs.GERRIT_REFSPEC }}
           delay: "0s"
@@ -84,7 +84,7 @@ jobs:
     needs: prepare
     runs-on: ubuntu-latest
     steps:
-      - uses: lfit/checkout-gerrit-change-action@v0.6
+      - uses: lfit/checkout-gerrit-change-action@v0.9
         with:
           gerrit-refspec: ${{ inputs.GERRIT_REFSPEC }}
           delay: "0s"
@@ -110,7 +110,7 @@ jobs:
     steps:
       - name: Gerrit Checkout
         # yamllint disable-line rule:line-length
-        uses: lfit/checkout-gerrit-change-action@v0.6
+        uses: lfit/checkout-gerrit-change-action@v0.9
         with:
           gerrit-refspec: ${{ inputs.GERRIT_REFSPEC }}
           delay: "0s"
@@ -139,7 +139,7 @@ jobs:
     steps:
       - uses: technote-space/workflow-conclusion-action@v3
       - name: Set vote
-        uses: lfit/gerrit-review-action@v0.3
+        uses: lfit/gerrit-review-action@v0.8
         with:
           host: ${{ vars.LFIT_GERRIT_SERVER }}
           username: ${{ vars.LFIT_GERRIT_SSH_USER }}
