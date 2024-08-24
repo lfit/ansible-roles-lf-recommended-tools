@@ -16,6 +16,23 @@
       "message": "remerge",
       "revId": "ce3d1413fa05e7786875918b9753210f5807b729",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c72da25_0c2bccdc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2024-08-24T08:52:22Z",
+      "side": 1,
+      "message": "Even after the change is merged, the GHA run is not picking up the latest workflow update here in this change, and trigger the older worklflow, something is out of sync between LF Gerrit \u003c---\u003e Github, replication br0k??\n\nhttps://github.com/lfit/ansible-roles-lf-recommended-tools/actions/runs/10498406072/job/29083273238#step:2:199",
+      "revId": "ce3d1413fa05e7786875918b9753210f5807b729",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ],
   "submitRequirementResults": [
