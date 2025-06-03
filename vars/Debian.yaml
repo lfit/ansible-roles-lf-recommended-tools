@@ -7,7 +7,7 @@ lf_recommended_tools_packages_distro:
   - libextutils-makemaker-cpanfile-perl
   - libxml-xpath-perl
   - llvm
-  - netcat
+  - netcat-traditional
   - parallel
   - tk-dev
   - wget
