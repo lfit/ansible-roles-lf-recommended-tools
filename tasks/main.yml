@@ -94,7 +94,7 @@
               https://rpm.nodesource.com/pub/el/NODESOURCE-GPG-SIGNING-KEY-EL
             state: present
 
-        - name: Add Nodesource repositories for Node.js (CentOS 7+).
+        - name: Add Nodesource repositories for Node.js (CentOS 7/8 only).
           ansible.builtin.yum:
             name:
               "https://rpm.nodesource.com/{{ nodejs_rhel_rpm_dir }}/el/\
@@ -102,7 +102,9 @@
               {{ ansible_architecture }}/nodesource-release-el\
               {{ ansible_distribution_major_version }}-1.noarch.rpm"
             state: present
-          when: ansible_distribution_major_version | int >= 7
+          when:
+            - ansible_distribution_major_version | int >= 7
+            - ansible_distribution_major_version | int <= 8
           register: node_repo
 
         - name: Update package cache if repo was added.
