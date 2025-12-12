@@ -6,50 +6,28 @@
   tasks:
     - name: Update APT cache
       ansible.builtin.package:
-        update_cache: yes
-      when: ansible_distribution == 'Ubuntu'
+        update_cache: true
+      when: ansible_facts['distribution'] == 'Ubuntu'
       become: true
 
-    - name: Install GPG certs
-      ansible.builtin.rpm_key:
+    - name: Install EPEL for CentOS/RHEL 9+
+      ansible.builtin.dnf:
+        name: epel-release
         state: present
-        key: https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-8
-      when: ansible_os_family == 'RedHat'
+      when: ansible_facts['os_family'] == 'RedHat' and ansible_facts['distribution_major_version'] is version('9', '>=')
       become: true
 
-    - name: Install EPEL repository
+    - name: Install EPEL for CentOS/RHEL 8
       ansible.builtin.yum:
-        name: https://dl.fedoraproject.org/pub/epel/epel-release-latest-{{ ansible_distribution_major_version }}.noarch.rpm
+        name: https://dl.fedoraproject.org/pub/epel/epel-release-latest-{{ ansible_facts['distribution_major_version'] }}.noarch.rpm
         state: present
-      when: ansible_os_family == 'RedHat'
+        disable_gpg_check: true
+      when: ansible_facts['os_family'] == 'RedHat' and ansible_facts['distribution_major_version'] == '8'
       become: true
 
-    - name: Install yum-plugin-versionlock
-      ansible.builtin.yum:
-        name:
-          - yum-plugin-versionlock
-      when: ansible_os_family == 'RedHat'
+    - name: Replace curl-minimal with curl on CentOS 9+
+      ansible.builtin.shell: |
+        dnf remove -y curl-minimal && dnf install -y curl
+      when: ansible_facts['os_family'] == 'RedHat' and ansible_facts['distribution_major_version'] is version('9', '>=')
       become: true
-
-    - name: Install mock
-      ansible.builtin.yum:
-        name:
-          - mock-2.17-1.el7
-        state: present
-      when:
-        - ansible_os_family == 'RedHat' and ansible_distribution_major_version == "7"
-      become: true
-
-    - name: Lock mock-core-configs version$
-      ansible.builtin.command: yum versionlock mock
-      when:
-        - ansible_os_family == 'RedHat' and ansible_distribution_major_version == "7"
-      become: true
-
-    - name: Install mock-core-configs from remote repo
-      ansible.builtin.yum:
-        name: https://rpmfind.net/linux/epel/testing/7/aarch64/Packages/m/mock-core-configs-31.6-1.el7.noarch.rpm
-        state: present
-      when:
-        - ansible_os_family == 'RedHat' and ansible_distribution_major_version == "7"
-      become: true
+      changed_when: true

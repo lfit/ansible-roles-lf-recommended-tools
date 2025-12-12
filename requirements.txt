@@ -1,4 +1,4 @@
-ansible>=2.17,<2.19
-ansible-lint>=6.22,<25.0
-molecule>=6.0,<25.0
-molecule-plugins[podman]>=23.5,<25.0
+ansible
+ansible-lint
+molecule
+molecule-plugins[podman]
