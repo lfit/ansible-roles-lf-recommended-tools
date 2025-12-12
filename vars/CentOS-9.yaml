@@ -2,6 +2,7 @@
 # CentOS Stream 9 specific recommended tools (exclude legacy CentOS7 RPM URLs)
 lf_recommended_tools_packages_distro:
   - bzip2
+  - curl
   - fedora-packager
   - findutils
   - parallel
