@@ -27,7 +27,7 @@
 
     - name: Replace curl-minimal with curl on CentOS 9+
       ansible.builtin.shell: |
-        dnf remove -y curl-minimal && dnf install -y curl
+        dnf swap -y curl-minimal curl --allowerasing
       when: ansible_facts['os_family'] == 'RedHat' and ansible_facts['distribution_major_version'] is version('9', '>=')
       become: true
       changed_when: true
