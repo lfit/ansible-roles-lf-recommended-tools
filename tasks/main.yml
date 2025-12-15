@@ -119,12 +119,21 @@
           ansible.builtin.command: yum module disable -y nodejs  # noqa command-instead-of-module
           register: module_disable
           changed_when: "'Nothing to do.' not in module_disable.stdout"
-          when: ansible_facts['distribution_major_version'] | int >= 8
+          when:
+            - ansible_facts['distribution_major_version'] | int >= 8
+            - ansible_facts['distribution_major_version'] | int < 9
 
         - name: Ensure Node.js and npm are installed.
           ansible.builtin.yum:
             name: "nodejs-{{ nodejs_version | regex_replace('x', '') }}*"
             state: present
+          when: ansible_facts['distribution_major_version'] | int < 9
+
+        - name: Ensure Node.js and npm are installed (CentOS 9+).
+          ansible.builtin.dnf:
+            name: nodejs
+            state: present
+          when: ansible_facts['distribution_major_version'] | int >= 9
 
     - name: Add NodeSource repository/NodeJS under Ubuntu
       become: true
