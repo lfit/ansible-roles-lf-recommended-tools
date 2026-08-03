@@ -60,12 +60,16 @@
         path: /opt/plantuml
         state: directory
         mode: 0755
+    # SourceForge's /download redirector regularly takes >10s to complete the
+    # TLS handshake, which exceeds get_url's default timeout. Upstream now
+    # publishes the same jar on GitHub releases, which is fast and serves a
+    # valid certificate (so validate_certs no longer has to be disabled).
     - name: Fetch PlantUML
       ansible.builtin.get_url:
-        url: https://sourceforge.net/projects/plantuml/files/plantuml.jar/download
-        validate_certs: false
+        url: https://github.com/plantuml/plantuml/releases/latest/download/plantuml.jar
         dest: /opt/plantuml/plantuml.jar
         mode: 0644
+        timeout: 60
       register: result
       until: result is succeeded
       retries: 3
