@@ -91,9 +91,23 @@
       become: true
       when: ansible_facts['os_family'] == 'RedHat'
       block:
+        # NodeSource does not publish every Node stream for older EL releases:
+        # pub_22.x has no el7 or el8 tree, and pub_20.x has no el7 (all 404).
+        # yum then downloads the 404 HTML page and fails to open it as an RPM
+        # ("Could not open: ...nodesource-release-el8-1.noarch.rpm"), so pin
+        # each EL release to the newest stream NodeSource actually ships.
+        - name: Select the NodeSource stream published for this EL release
+          ansible.builtin.set_fact:
+            nodejs_el_version: "{{ nodejs_el_streams[ansible_facts['distribution_major_version']]
+              | default(nodejs_version) }}"
+          vars:
+            nodejs_el_streams:
+              "7": "18.x"
+              "8": "20.x"
+
         - name: Set up the Nodesource RPM directory.
           ansible.builtin.set_fact:
-            nodejs_rhel_rpm_dir: "pub_{{ nodejs_version }}"
+            nodejs_rhel_rpm_dir: "pub_{{ nodejs_el_version }}"
 
         - name: Import Nodesource RPM key
           ansible.builtin.rpm_key:
@@ -129,7 +143,7 @@
 
         - name: Ensure Node.js and npm are installed.
           ansible.builtin.yum:
-            name: "nodejs-{{ nodejs_version | regex_replace('x', '') }}*"
+            name: "nodejs-{{ nodejs_el_version | regex_replace('x', '') }}*"
             state: present
           when: ansible_facts['distribution_major_version'] | int < 9
 
